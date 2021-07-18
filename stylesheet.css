@@ -54,7 +54,7 @@ a{
     width: max-content;
     margin: 0 auto;
 }
-.trip , .final-assessment{
+.trip , .flex-section{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     display: grid;
@@ -86,7 +86,7 @@ label {
     display: inline-block; 
     width: 150px; 
 }
-.final-assessment{
+.flex-section{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -116,7 +116,7 @@ label {
     .trip{
         grid-template-columns: 1fr 1fr;
     }
-    .final-assessment{
+    .flex-section{
         grid-template-columns: 1fr;
     }
 }
